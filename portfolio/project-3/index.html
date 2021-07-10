@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Exploratory Data Analysis-Terrorism</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Find out the hot zones of terrorism">
+  <meta name="author" content="Mohd Ali Ansari">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <style>
+    :root{
+      --primary-color:#41228e;
+    }
+  </style>
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://ironstark007.github.io/Portfolio/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://ironstark007.github.io/Portfolio/images/favicon.png " type="image/x-icon">
+
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="/Portfolio/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://ironstark007.github.io/Portfolio">
+      
+      <h3 class="text-white font-tertiary">Mohd Ali Ansari</h3>
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio"> Home </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/about">About</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/blog">Achievement</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/portfolio">Portfolio</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/contact">Contact</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Exploratory Data Analysis-Terrorism</h1>
+      </div>
+    </div>
+  </div>
+  
+  <img src="/Portfolio/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="/Portfolio/images/illustrations/leaf-pink-round.svg" alt="illustrations" class="bg-shape-2">
+  <img src="/Portfolio/images/illustrations/dots-cyan.svg" alt="illustrations" class="bg-shape-3">
+  <img src="/Portfolio/images/illustrations/leaf-orange.svg" alt="illustrations" class="bg-shape-4">
+  <img src="/Portfolio/images/illustrations/leaf-yellow.svg" alt="illustrations" class="bg-shape-5">
+  <img src="/Portfolio/images/illustrations/dots-group-cyan.svg" alt="illustrations" class="bg-shape-6">
+  <img src="/Portfolio/images/illustrations/leaf-cyan-lg.svg" alt="illustrations" class="bg-shape-7">
+</section>
+
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mb-5">
+        <img src="https://ironstark007.github.io/Portfolio/images/portfolio/istockphoto-106492379-612x612.jpg" class="img-fluid w-100" alt="Exploratory Data Analysis-Terrorism">
+      </div>
+      <div class="col-lg-7 mb-5 mb-lg-0 align-self-center">
+        <div class="row mx-0">
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-calendar"></i>
+              <div class="ml-3">
+                <h4>Date</h4>
+                <p>Feb 08, 2021</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-folder"></i>
+              <div class="ml-3">
+                <h4>Categories</h4>
+                <p>Security</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-link"></i>
+              <div class="ml-3">
+                <h4>Project Link</h4>
+                <p><a href="https://github.com/IronStark007/Data-Analyst-Portfolio/tree/master/Exploratory%20Data%20Analysis%20-%20Terrorism"><strong>Click Here</strong></a></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-11">
+        <div class="content"><h4 id="introduction">Introduction</h4>
+<p><a href="https://bit.ly/2TK5Xn5">Global Terrorism Database</a> (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017.</p>
+<p>The GTD includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period and now includes more than 180,000 attacks. The database is maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland.</p>
+<h4 id="problem-statement">Problem Statement</h4>
+<p>Our goal is to <em>Perform ‘Exploratory Data Analysis’ on this dataset</em> and <em>As a security/defense analyst, try to find out the hot zone of terrorism</em>.</p>
+<h4 id="solution">Solution</h4>
+<p>I have loaded the dataset and cleaned (preprocess) it  by removing many null columns and irrelevant data using python then moved to the Exploratory Data Analysis (EDA) Part using tableau</p>
+<p>In EDA, I have checked which country, regions have higher in <em>Sucessful</em> terrorist attack, the year wise trend of the terrorist activities, Which public/private property are most attacked by the terrorists.</p>
+<p><strong>Visualization</strong></p>
+<p><a href="https://public.tableau.com/views/ExploratoryDataAnalysis-Terrorism_16243647690970/Dashboard?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link"><img src="https://ironstark007.github.io/Portfolio/images/portfolio/tableau_icon.png" alt="Tableau Dashboard"></a></p>
+<p><strong>Challenges</strong></p>
+<p>There is lots of missing values in most of the columns which makes it difficult to check all the aspects of terrorism attacks.</p>
+<p>Also since the data is from 1970 to 2017, many countries names are has been changed so consistency issue exists
+(<em>But I have tried to do the analysis as fair as possible and not missed any single aspects of the data to be invented.</em>)</p>
+<h4 id="conclusion">Conclusion</h4>
+<p>After fully exploring the data, I have suggested below recommendations:</p>
+<ol>
+<li><em>Middle East &amp; North Africa</em> and <em>South Africa</em> are the <em>two most affected region</em> due to terrorism.</li>
+<li><em>Iraq</em> and <em>Pakistan</em> are the <em>two most dangerous countries</em> in the world by since their success rate of terrorism is high.</li>
+<li>Terrorist Activities <em>increases from 1997 onwards</em> and it has <em>reached its peak at around 2014-15</em>.</li>
+<li><em>Private Citizen &amp; Property</em> , <em>Government</em> and <em>Police</em> departments are <em>most attacked</em> by the terrorists.</li>
+</ol>
+<h4 id="recommendations">Recommendations</h4>
+<p>The Defense/Security Aanalyst should/can -</p>
+<ul>
+<li>Revise and increase their defence policy for <em>Middle East &amp; North Africa</em> and <em>South Africa</em> Regions since they are most affected regions.</li>
+<li>impose strict survilience and major alert in <em>Iraq</em> and <em>Pakistan</em> countries so that they can if find any suspicious activity happening, should take immediate actions before any harm happens.</li>
+<li>provide helpline and bomb squad support for every <em>Private Citizen &amp; Property</em> , <em>Government</em> and <em>Police</em> and increase its security policy to maintian the peace.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="next-steps">Next Steps</h4>
+<p>Defense Analyst should also took into consider the travelling activies happening in these Regions &amp; Countries to decrease the terrorism.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section section-on-footer" data-background="https://ironstark007.github.io/Portfolio/images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="https://formspree.io/f/xjvjrpyq" method="POST" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="mailto:ansar326629@gmail.com">ansar326629@gmail.com</a></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="tel:&#43;91%208356888873">&#43;91 8356888873</a></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">Thane(W), Maharashtra, India</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright © Mohd Ali Ansari 2021</p>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/slick/slick.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://ironstark007.github.io/Portfolio/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>

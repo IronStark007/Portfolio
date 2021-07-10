@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/portfolio/</link>
+    <description>Recent content in Portfolio on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sales Insights</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-7/</link>
+      <pubDate>Tue, 06 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-7/</guid>
+      <description>Introduction Atliq Hardware is a company which supplies the hardware peripherals to different clients such as nomad stores, excel stores.</description>
+    </item>
+    
+    <item>
+      <title>KPMG - Virtual Experience Program</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-6/</link>
+      <pubDate>Thu, 01 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-6/</guid>
+      <description>Introduction Sprocket Central Pty Ltd , a medium size bikes &amp;amp; cycling accessories organisation,needs help with its customer and transactions data.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: Cyclistic&#39;s Bike Share</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-5/</link>
+      <pubDate>Thu, 17 Jun 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-5/</guid>
+      <description>Introduction In 2016, Cyclistic launched a successful bike-share offering. Cyclistic is a Chicago-based bike-share program that features nearly 6,000 bicycles and more than 600 docking stations.</description>
+    </item>
+    
+    <item>
+      <title>Exploratory Data Analysis-Sports</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-4/</link>
+      <pubDate>Sat, 13 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-4/</guid>
+      <description>Introduction Indian Premire League Dataset (GTD) contains the match descriptions, results, winners, player of the matches, ball by ball dataset and much more from the year 2008-2019.</description>
+    </item>
+    
+    <item>
+      <title>Exploratory Data Analysis-Terrorism</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-3/</link>
+      <pubDate>Mon, 08 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-3/</guid>
+      <description>Introduction Global Terrorism Database (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017.</description>
+    </item>
+    
+    <item>
+      <title>Exploratory Data Analysis-Retail</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-2/</link>
+      <pubDate>Fri, 05 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-2/</guid>
+      <description>Introduction Sample SuperStore is a fictional dataset made for practicing Data Analysis</description>
+    </item>
+    
+    <item>
+      <title>Performing Analysis of Meteorological Data</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-1/</link>
+      <pubDate>Mon, 16 Nov 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-1/</guid>
+      <description>Introduction One type of data that’s easier to find on the net is Weather data.</description>
+    </item>
+    
+  </channel>
+</rss>

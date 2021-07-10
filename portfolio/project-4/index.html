@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Exploratory Data Analysis-Sports</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Find out the most successful team and players">
+  <meta name="author" content="Mohd Ali Ansari">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  <style>
+    :root{
+      --primary-color:#41228e;
+    }
+  </style>
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://ironstark007.github.io/Portfolio/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://ironstark007.github.io/Portfolio/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://ironstark007.github.io/Portfolio/images/favicon.png " type="image/x-icon">
+
+  
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="/Portfolio/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://ironstark007.github.io/Portfolio">
+      
+      <h3 class="text-white font-tertiary">Mohd Ali Ansari</h3>
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio"> Home </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/about">About</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/blog">Achievement</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/portfolio">Portfolio</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="https://ironstark007.github.io/Portfolio/contact">Contact</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">Exploratory Data Analysis-Sports</h1>
+      </div>
+    </div>
+  </div>
+  
+  <img src="/Portfolio/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="/Portfolio/images/illustrations/leaf-pink-round.svg" alt="illustrations" class="bg-shape-2">
+  <img src="/Portfolio/images/illustrations/dots-cyan.svg" alt="illustrations" class="bg-shape-3">
+  <img src="/Portfolio/images/illustrations/leaf-orange.svg" alt="illustrations" class="bg-shape-4">
+  <img src="/Portfolio/images/illustrations/leaf-yellow.svg" alt="illustrations" class="bg-shape-5">
+  <img src="/Portfolio/images/illustrations/dots-group-cyan.svg" alt="illustrations" class="bg-shape-6">
+  <img src="/Portfolio/images/illustrations/leaf-cyan-lg.svg" alt="illustrations" class="bg-shape-7">
+</section>
+
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mb-5">
+        <img src="https://ironstark007.github.io/Portfolio/images/portfolio/IPL-2020-all-teams-logos.jpg" class="img-fluid w-100" alt="Exploratory Data Analysis-Sports">
+      </div>
+      <div class="col-lg-7 mb-5 mb-lg-0 align-self-center">
+        <div class="row mx-0">
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-calendar"></i>
+              <div class="ml-3">
+                <h4>Date</h4>
+                <p>Feb 13, 2021</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-folder"></i>
+              <div class="ml-3">
+                <h4>Categories</h4>
+                <p>Sports</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 mb-5">
+            <div class="project-meta">
+              <i class="ti-link"></i>
+              <div class="ml-3">
+                <h4>Project Link</h4>
+                <p><a href="https://github.com/IronStark007/Data-Analyst-Portfolio/tree/master/Exploratory%20Data%20Analysis%20-%20Sports"><strong>Click Here</strong></a></p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-lg-11">
+        <div class="content"><h4 id="introduction">Introduction</h4>
+<p><a href="https://bit.ly/34SRn3b">Indian Premire League Dataset</a> (GTD) contains the match descriptions, results, winners, player of the matches, ball by ball dataset and much more from the year 2008-2019.</p>
+<p>This dataset consists of two seperate CSV files : matches and deliveries. These files contain the information of each match summary and ball by ball details, respectively.</p>
+<h4 id="problem-statement">Problem Statement</h4>
+<p>Our goal is to <em>Perform ‘Exploratory Data Analysis’ on this dataset</em> and <em>As a Sport Analyst, find out the most successful team and players</em>.</p>
+<p>And <em>Suggest teams or players a company should endorse for its products</em>.</p>
+<h4 id="solution">Solution</h4>
+<p>After loading the dataset in spreadsheet, I have done cleaning and preprocessing by combining both the dataset and change the team names for inconsistency, removing team which are not part of the IPL franchies,null columns and irrelevant data then moved to the Exploratory Data Analysis (EDA) Part using tableau</p>
+<p>In EDA, I have analyzed the succesful team, man of the match, top 10 batsman and bolwers and team performance by seasons.</p>
+<p><strong>Cleaned Dataset</strong></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1BEXeI3Ws2kyKlDnXXs84Fi2VTEdUjjfgt1W2WVlAI-Y/edit?usp=sharing"><img src="https://ironstark007.github.io/Portfolio/images/portfolio/data_cleaning.png" alt="Cleaned Dataset Here"></a></p>
+<p><strong>Visualization</strong></p>
+<p><a href="https://public.tableau.com/app/profile/ansari.mohammed.ali.nasim/viz/ExploratoryDataAnalysis-Sports_16244468101010/ExploratoryDataAnalysis-Sports"><img src="https://ironstark007.github.io/Portfolio/images/portfolio/tableau_icon.png" alt="Tableau Dashboard"></a></p>
+<h4 id="conclusion">Conclusion</h4>
+<p>After fully exploring the data, I have suggested below recommendations:</p>
+<ol>
+<li><em>Mumbai Indians</em> (MI), <em>Chennai Super Kings</em> (CSK), and <em>Kolkata Knight Riders</em> (CSK) are <em>most successful teams</em> of the franchies.</li>
+<li>After 2010, <em>MI</em> showed great performance in the <em>odd years</em>, <em>CSK</em> has great performance throughout <em>all the years</em>.</li>
+<li><em>Chris Gayle</em>, <em>Ab de villiers</em> and <em>Rohit Sharma</em> are the <em>most important players</em> in the IPL.</li>
+<li><em>Andre Russell</em> , <em>Sam Curran</em> and <em>Sunil Narine</em> have scored <em>highest run</em> in the matches.</li>
+<li><em>Lasith Malinga</em>, <em>Amit Mishra</em> and <em>Harbhajan Singh</em> have taken <em>most number of wickets</em>.</li>
+</ol>
+<h4 id="recommendations">Recommendations</h4>
+<p>The Sport Aanalyst should/can -</p>
+<ul>
+<li>take into <em>top priority these three teams</em> - MI, CSK &amp; KKR while going for product endorsements.</li>
+<li>consider <em>Chris Gayle</em>, <em>Ab de villiers</em> and <em>Rohit Sharma</em> <em>for most successful ad campaign</em>.</li>
+<li>consider <em>Andre Russell</em> , <em>Sam Curran</em> and <em>Sunil Narine</em> while <em>endorsing any batsman product or ad related</em> to them <em>like product stickers in the bat</em>.</li>
+<li>consider <em>Lasith Malinga</em>, <em>Amit Mishra</em> and <em>Harbhajan Singh</em> for any adverstise <em>related to bowling or fielding products</em>.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h4 id="next-steps">Next Steps</h4>
+<p>Sport or marketing Analyst should take a look into the Women&rsquo;s cricket to find out players which will increase their product sales.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section section-on-footer" data-background="https://ironstark007.github.io/Portfolio/images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="https://formspree.io/f/xjvjrpyq" method="POST" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="mailto:ansar326629@gmail.com">ansar326629@gmail.com</a></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="tel:&#43;91%208356888873">&#43;91 8356888873</a></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">Thane(W), Maharashtra, India</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright © Mohd Ali Ansari 2021</p>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/slick/slick.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://ironstark007.github.io/Portfolio/plugins/google-map/map.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://ironstark007.github.io/Portfolio/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+
+</html>
