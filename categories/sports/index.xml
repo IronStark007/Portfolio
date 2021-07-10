@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/categories/sports/</link>
+    <description>Recent content in Sports on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Feb 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/categories/sports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory Data Analysis-Sports</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-4/</link>
+      <pubDate>Sat, 13 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-4/</guid>
+      <description>Introduction Indian Premire League Dataset (GTD) contains the match descriptions, results, winners, player of the matches, ball by ball dataset and much more from the year 2008-2019.</description>
+    </item>
+    
+  </channel>
+</rss>

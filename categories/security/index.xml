@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/categories/security/</link>
+    <description>Recent content in Security on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Feb 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory Data Analysis-Terrorism</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-3/</link>
+      <pubDate>Mon, 08 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-3/</guid>
+      <description>Introduction Global Terrorism Database (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retial on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/categories/retial/</link>
+    <description>Recent content in Retial on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Feb 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/categories/retial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploratory Data Analysis-Retail</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-2/</link>
+      <pubDate>Fri, 05 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-2/</guid>
+      <description>Introduction Sample SuperStore is a fictional dataset made for practicing Data Analysis</description>
+    </item>
+    
+  </channel>
+</rss>

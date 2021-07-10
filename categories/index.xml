@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/categories/</link>
+    <description>Recent content in Categories on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jul 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sales</title>
+      <link>https://ironstark007.github.io/Portfolio/categories/sales/</link>
+      <pubDate>Tue, 06 Jul 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/categories/sales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sports</title>
+      <link>https://ironstark007.github.io/Portfolio/categories/sports/</link>
+      <pubDate>Sat, 13 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/categories/sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://ironstark007.github.io/Portfolio/categories/security/</link>
+      <pubDate>Mon, 08 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retial</title>
+      <link>https://ironstark007.github.io/Portfolio/categories/retial/</link>
+      <pubDate>Fri, 05 Feb 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/categories/retial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather</title>
+      <link>https://ironstark007.github.io/Portfolio/categories/weather/</link>
+      <pubDate>Mon, 16 Nov 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/categories/weather/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

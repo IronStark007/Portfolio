@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Achievement on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/blog/</link>
+    <description>Recent content in Achievement on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KPMG-Virtual Experience Program</title>
+      <link>https://ironstark007.github.io/Portfolio/blog/post-2/</link>
+      <pubDate>Mon, 01 Jul 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/blog/post-2/</guid>
+      <description>Participated in the open access KPMG Virtual Experience Program with Forage.</description>
+    </item>
+    
+    <item>
+      <title>AWS Machine Learning Scholarship</title>
+      <link>https://ironstark007.github.io/Portfolio/blog/post-1/</link>
+      <pubDate>Tue, 25 Jun 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/blog/post-1/</guid>
+      <description>Achieved a seat in the AWS MLE Foundations course for the AWS Machine Learning Scholarship program.</description>
+    </item>
+    
+    <item>
+      <title>GirlScript Summer of Code</title>
+      <link>https://ironstark007.github.io/Portfolio/blog/post-3/</link>
+      <pubDate>Tue, 25 Jun 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/blog/post-3/</guid>
+      <description>Participated in the Open Source Development Projects.
+Contributed on Data Analytics and Machine Learning, Python Projects during the Program.</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud Ready Facilitator Program</title>
+      <link>https://ironstark007.github.io/Portfolio/blog/post-4/</link>
+      <pubDate>Mon, 10 Jun 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/blog/post-4/</guid>
+      <description>Participated in the Google Cloud Ready Facilitator Program.
+Learned cloud skills by completing 3 tracks, 30 quests and earning 15 badges.</description>
+    </item>
+    
+  </channel>
+</rss>

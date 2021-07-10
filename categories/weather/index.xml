@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weather on Mohd Ali Ansari</title>
+    <link>https://ironstark007.github.io/Portfolio/categories/weather/</link>
+    <description>Recent content in Weather on Mohd Ali Ansari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://ironstark007.github.io/Portfolio/categories/weather/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performing Analysis of Meteorological Data</title>
+      <link>https://ironstark007.github.io/Portfolio/portfolio/project-1/</link>
+      <pubDate>Mon, 16 Nov 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ironstark007.github.io/Portfolio/portfolio/project-1/</guid>
+      <description>Introduction One type of data that’s easier to find on the net is Weather data.</description>
+    </item>
+    
+  </channel>
+</rss>
